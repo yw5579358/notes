@@ -1,3 +1,9 @@
+Anaconda安装后
+在内部添加三个环境变量
+（1）一个是anaconda的安装路径
+（2）一个是anaconda包下的Scripts包
+（3）一个是anaconda包下的Library包的bin
+
 conda create -n yolov5_env python=3.8 jupyter -y
 conda activate yolov5_env
 pip install -r requirements.txt
@@ -5,3 +11,4 @@ pip install -r requirements.txt
 pip uninstall torch torchvision torchaudio -y
 #版本后根据自己的来，根据官方源下载携带gpu的 cuda 12.1
 pip install torch==2.4.1 torchvision==0.19.1 torchaudio --index-url https://download.pytorch.org/whl/cu121
+
