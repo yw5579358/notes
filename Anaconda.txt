@@ -12,3 +12,5 @@ pip uninstall torch torchvision torchaudio -y
 #版本后根据自己的来，根据官方源下载携带gpu的 cuda 12.1
 pip install torch==2.4.1 torchvision==0.19.1 torchaudio --index-url https://download.pytorch.org/whl/cu121
 
+#pip
+pip install xxx --proxy=http://localhost:7890
