@@ -14,3 +14,4 @@ pip install torch==2.4.1 torchvision==0.19.1 torchaudio --index-url https://down
 
 #pip
 pip install xxx --proxy=http://localhost:7890
+conda activate ai_data
